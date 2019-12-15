@@ -1,0 +1,7 @@
+imie = input("Jak masz na imię? ->")
+print(imie)
+wiek = input("Jak masz lat? ->")
+print(wiek)
+print(int(wiek) > 18)
+dlugosc = len(imie)
+print(f"Czyli masz na imie {imie} i masz {wiek} lat. Twoje imię składa się z {dlugosc} znakow")
